@@ -3,6 +3,16 @@ h1, h2, h3 {
    color: #3D505D;
 }
 
+h2 {
+   font-size: 24pt;
+   padding: 10px 0 10px 0;
+}
+
+h3 {
+   font-size: 18pt;
+   padding: 15px 0 20px 0;
+}
+
 p {
     font-family: 'Raleway', sans-serif;
     color: darkgray;
@@ -32,7 +42,7 @@ a:hover {
     float: left;
     background-color: white;
     padding: 25px;
-    height: 607px;
+    height: 590px;
     border-style: solid;
     border-width: .3px;
     border-color: lightgray;
@@ -43,7 +53,7 @@ a:hover {
     float: left;
     background-color: white;
     padding: 25px;
-    height: 970px; 
+    height: 950px; 
     border-style: solid;
     border-width: .3px;
     border-color: lightgray;
@@ -86,23 +96,25 @@ a:hover {
 .name-box {
     background-color: #3D505D;
     color: white;
-    padding: 25px 0 0 0;
+    padding: 28px 0 0 0;
     text-align: center;
     font-size: 20pt;
     width: 300px;
-    /* letter-spacing: 1px; */
     font-family: 'Cinzel', serif;
     border-style: solid;
     border-width: .3px;
     border-color: lightgray;
     text-shadow: .5px .5px rgb(0, 0, 0);
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    
 }
 
 .nav-box {
     float: right;
     text-align: right;
     margin: 0 0 0 0px;
-    padding: 34px 0 0px 410px;
+    padding: 36px 0 0px 420px;
     letter-spacing: 1px;
     word-spacing: 20px; 
     font-family: 'Raleway', sans-serif;
@@ -117,32 +129,25 @@ a:hover {
     width: 960px;
     display: flex;
     margin: auto; 
-    height: 80px;
-    position: relative;
-    top: -10px;
+    height: 80px;   
 }
 
 .content-area {
     background-image: url(../images/diagonal_waves.png);
-    clear:both;
+    clear: both;
     height: 700px;
     border-style: solid;
     border-width: .3px 0 .3px 0;
     border-color: lightgray;
-    position: relative;
-    top: -10px;
 }
 
 .content-areai {
     background-image: url(../images/diagonal_waves.png);
     clear:both;
-    height: 700px;
+    height: 680px;
     border-style: solid;
     border-width: .3px 0 .3px 0;
     border-color: lightgray;
-    position: relative;
-    top: -10px;
-
 }
 
 .content-areap {
@@ -152,8 +157,6 @@ a:hover {
     border-style: solid;
     border-width: .3px 0 .3px 0;
     border-color: lightgray;
-    position: relative;
-    top: -10px;
 }
 
 #colorstrip {
@@ -183,7 +186,6 @@ footer {
     width: 100%;
   }
 
-
   .sidebar-img {
       width: 70px;
       height: 70px;
@@ -203,11 +205,9 @@ footer {
 .line-class {
 	height: 10px;
 	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    padding: 5px 0 5px 0;
 }
-
-
-
 
 input[type=text], select, textarea {
     width: 100%;
@@ -261,7 +261,7 @@ input[type=submit]:hover {
     height: 40px;
     color: #3D505D;
     text-align: center;
-    padding: 18px 0 0 0;
+    padding: 25px 0 0 0;
     font-family: 'Cinzel', serif;
     font-size: 14pt;
     letter-spacing: 1px;
@@ -298,10 +298,8 @@ input[type=submit]:hover {
     height: auto;
 }
 
-/* .para-text::first-letter {
-    font-size: 200%;
-    color: #3d505d;
-    margin-left: -2px;
-} */
+.para-text {
+    padding: 10px 0 0 0;
+}
 
 
